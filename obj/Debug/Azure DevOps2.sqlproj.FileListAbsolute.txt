@@ -3,3 +3,7 @@ C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\
 C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\bin\Debug\Azure_DevOps2.pdb
 C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\Azure_DevOps2.dll
 C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\Azure_DevOps2.pdb
+C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\Model.xml
+C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\refactor.xml
+C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\postdeploy.sql
+C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\predeploy.sql
