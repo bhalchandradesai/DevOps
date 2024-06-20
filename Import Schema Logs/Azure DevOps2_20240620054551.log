@@ -1,0 +1,10 @@
+2024-06-20 11:15:51 AM	This log contains information about the import schema operation into project 'Azure DevOps2' on computer 'INLT02-BHALCHAN' by user 'BhalchandraDesai'.
+2024-06-20 11:15:51 AM	Deserializing model
+2024-06-20 11:15:51 AM	Resolving model
+2024-06-20 11:15:51 AM	Visiting imported model for types
+2024-06-20 11:15:51 AM	Scanning project for duplicate elements
+2024-06-20 11:15:51 AM	Finished duplicate element processing
+2024-06-20 11:15:51 AM	Processing extra files
+2024-06-20 11:15:51 AM	Finished importing Data-tier Application file.
+2024-06-20 11:15:51 AM	A summary of the import was saved to the following location: C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\Import Schema Logs\Azure DevOps2_20240620054551.log
+2024-06-20 11:15:51 AM	Click Finish to continue...
