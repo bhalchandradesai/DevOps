@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="150" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="Azure_DevOps2.dll" />
+			<Metadata Name="FileName" Value="C:\USERS\BHALCHANDRADESAI\ONEDRIVE - ASSETSOFT\BHALCHANDRA\DEVOPS\AZURE DEVOPS2\AZURE DEVOPS2\OBJ\DEBUG\AZURE_DEVOPS2.DLL" />
+			<Metadata Name="AssemblyName" Value="Azure_DevOps2" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\BhalchandraDesai\OneDrive - Assetsoft\Bhalchandra\DevOps\Azure DevOps2\Azure DevOps2\obj\Debug\Azure_DevOps2.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DevOpsUser]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_owner]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DevOpsUser]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_ddladmin]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DevOpsUser]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_datareader]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlRoleMembership">
+			<Relationship Name="Member">
+				<Entry>
+					<References Name="[DevOpsUser]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Role">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[db_datawriter]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[employee_Mst]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[employee_Mst].[ID]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[employee_Mst].[Emp_Name]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[employee_Mst].[Emp_Add]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="500" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[employee_Mst].[CreatedDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlLogin" Name="[DevOpsUser]" Disambiguator="7">
+			<Property Name="Password" Value="xxbhnri{mbluxP#Qe|&amp;QwoxlmsFT7_&amp;#$!~&lt;9iliu|ejmzbv" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlUser" Name="[DevOpsUser]">
+			<Property Name="LoginIdentifierScript">
+				<Value><![CDATA[[DevOpsUser]]]></Value>
+			</Property>
+			<Property Name="AuthenticationType" Value="1" />
+			<Relationship Name="Login">
+				<Entry>
+					<References Name="[DevOpsUser]" Disambiguator="7" />
+				</Entry>
+			</Relationship>
+		</Element>
+	</Model>
+</DataSchemaModel>
