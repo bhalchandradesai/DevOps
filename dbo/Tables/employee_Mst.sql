@@ -4,7 +4,6 @@
     [Emp_Add]  VARCHAR (500) NULL, 
     [CreatedDate] DATETIME NULL, 
     [Created By] VARCHAR(50) NULL,
-    ModifiedBy varchar(200), 
-    [TestCol] VARCHAR(50) NULL
+    ModifiedBy varchar(200) 
 );
 
