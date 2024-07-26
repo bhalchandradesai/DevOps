@@ -5,6 +5,7 @@
     [CreatedDate] DATETIME NULL, 
     [Created By] VARCHAR(50) NULL,
     ModifiedBy varchar(200), 
-    [TestCol] VARCHAR(50) NULL 
+    [TestCol] VARCHAR(50) NULL, 
+    [TestCol2] VARCHAR(50) NULL 
 );
 
