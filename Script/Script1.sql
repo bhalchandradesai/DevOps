@@ -1,2 +1,2 @@
 ﻿
-insert into [employee_Mst] values('Bhalchandra','Mumbai',getdate(),'1')
+insert into [employee_Mst] values('Bhalchandra1','Mumbai',getdate(),'1')
